@@ -1,0 +1,5 @@
+discord.py==2.5.0
+django_haystack==3.3.0
+matplotlib==3.10.1
+pydantic==2.10.6
+PyYAML==6.0.2

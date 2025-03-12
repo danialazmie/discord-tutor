@@ -1,0 +1,15 @@
+active_model: anthropic
+model_configs:
+  anthropic:
+    model: claude-3-7-sonnet-latest
+    system_prompt: EDUCATOR_SYSTEM_PROMPT_ANTHROPIC
+    generation_kwargs:
+      thinking:
+        type: enabled
+        budget_tokens: 1500
+      max_tokens: 5000
+  openai:
+    model: gpt-4o
+    system_prompt: EDUCATOR_SYSTEM_PROMPT
+    generation_kwargs:
+      temperature: 0.1
